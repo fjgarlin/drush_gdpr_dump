@@ -1,0 +1,16 @@
+{
+    "name": "machbarmacher/drush_gdpr_dump",
+    "description": "Together with the drupal/gdpr_dump module and the machbarmacher/gdpr-dump library, adds a --gdpr option to drush sql-dump and sql-sync.",
+    "type": "drupal-drush",
+    "require": {
+        "machbarmacher/gdpr-dump": "dev-master"
+    },
+    "license": "GPL-2.0-or-higher",
+    "authors": [
+        {
+            "name": "Axel Rutz",
+            "email": "axel.rutz@machbarmacher.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}

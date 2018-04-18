@@ -1,0 +1,5 @@
+services:
+  gdpr_dump.dump_enhancer:
+    class: \Drupal\gdpr_dump\Commands\DumpEnhancerCommands
+    tags:
+      - { name: drush.command }
